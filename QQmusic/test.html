@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="gedan.css">
+    <link rel="stylesheet" type="text/css" href="newsong.css">
+
+    <link rel="icon" href="tu.ico" type="image/x-icon">
+    <title>QQ音乐</title>
+    <style type="text/css">
+    *{
+        padding: 0;
+        margin:0;
+    }
+    .container{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .header2{
+        width: 100%;
+        height:50px;
+        background-color:white;
+
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="fix-position">
+        <img src="logo.png">
+        <p>千万高品质曲库尽享</p>
+        <button id="b0">客户端下载</button>
+    </div>
+    <div class="container">
+        <div class="header1">
+        <img src="toubiao.jpg">
+        <div class="topic">
+            <a href="#" class="topic-item" id="p1">音乐馆</a>
+            <a href="#" class="topic-item">我的音乐</a>
+            <a href="#" class="topic-item">客户端</a>
+            <a href="#" class="topic-item">开放平台</a>        
+            <a href="#" class="topic-item">VIP</a>
+        </div>
+        <input  type="text" placeholder="&nbsp;&nbsp;搜索音乐、MV、歌单、用户" class="acount" /><br>
+         <a href="#">登录</a>           
+        <button class="button" id="b1">开通绿钻豪华版</button>
+        <button class="button" id="b2">开通付费包</button>
+        </div>
+        <div class="header2">
+            <a href="#" class="item2">首页</a>
+            <a href="#" class="item2">歌手</a>
+            <a href="#" class="item2">新碟</a>
+            <a href="#" class="item2">排行榜</a>
+            <a href="#" class="item2">分类歌单</a>
+            <a href="#" class="item2">电台</a>
+            <a href="#" class="item2">MV</a>
+            <a href="#" class="item2">数字专辑</a>
+            <a href="#" class="item2">票务</a>
+        </div>
+        <div class="gedan1">
+            歌 单 推 荐
+        </div>
+        <div class="gedan2">
+            <a href="#" class="item3">为你推荐</a>
+            <a href="#" class="item3">网络歌曲</a>
+            <a href="#" class="item3">短视频热歌</a>
+            <a href="#" class="item3">伤感</a>
+            <a href="#" class="item3">官方歌单</a>
+            <a href="#" class="item3">情歌</a>
+
+        </div>
+        <div class="gedan3">
+        <!--
+             <div class="mod_slide_action">
+                <div class="slide_action slide_action--left">
+                    <a href="javascript:;" class="slide_action__btn slide_action__btn--left js_jump" data-p="prev" tabindex="-1" data-stat="y_new.index.new_song.pager"><i class="icon_txt">上一页</i><i class="slide_action__arrow slide_action__arrow--left sprite"></i></a>
+                </div>
+                <div class="slide_action slide_action--right">
+                    <a href="javascript:;" class="slide_action__btn slide_action__btn--right js_jump" data-p="next" tabindex="-1" data-stat="y_new.index.new_song.pager"><i class="icon_txt">下一页</i><i class="slide_action__arrow slide_action__arrow--right sprite"></i></a>
+                </div>
+            </div>
+        -->   
+            <div class="gedan-list">
+                <div class="list">
+                    <div class="img" > <a href="#" ><img src="list1.jpg"></a>  </div>
+                    <a href="#" class="name">经典情歌，唱出男人最深沉的爱</a>
+                    <p class="play-volumn">播放量：5068.7万</p>
+                </div>
+                <div class="list">
+                    <div class="img" ><a href="#" ><img src="list2.jpg"></a></div>
+                    <a href="#" class="name">听，情歌王子六哲的故事</a>
+                    <p class="play-volumn">播放量：147.8万</p>
+                </div>
+                <div class="list">
+                    <div class="img" ><a href="#"><img src="list3.png"></a></div>
+                    <a href="#" >张学友30年十大金曲</a>
+                    <p class="play-volumn">播放量：1346.6万</p>
+                </div>
+                <div class="list">
+                    <div class="img" ><a href="#"><img src="list4.jpg"></a></div>
+                    <a href="#" class="name">温柔女嗓：失眠患者的治愈音药</a>
+                    <p class="play-volumn">播放量：2405.1万</p>
+                </div>
+                <div class="list">
+                    <div class="img" ><a href="#"><img src="list5.jpg"></a></div>
+                    <a href="#" class="name">热歌向：你一定都爱听这些歌</a>
+                    <p class="play-volumn">播放量：4738.9万</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="xinge1">
+            新 歌 首 发
+        </div>
+        <div class="xinge2">
+            <button id="b3">▶播放全部</button>
+            
+                <a href="#" >最新</a>
+                <a href="#" >内地</a>
+                <a href="#" >港台</a>
+                <a href="#" >欧美</a>
+                <a href="#" >韩国</a>
+                <a href="#" >日本</a>
+            
+
+        </div>
+        <div class="xinge3">
+            
+            <div class="xinge-list">
+                <div class="xinge-column">
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new1.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">与生俱来《穿越火线》</a>
+                            <p>UNINE胡春阳</p>
+                        </div>
+                        <p>02:40</p>
+                    </div>
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new4.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">REMEMBER</a>
+                            <p>WINNER</p>
+                        </div>
+                        <p>03:47</p>
+                    </div>
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new7.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">阴暗面</a>
+                            <p>Dirty Twinz</p>
+                        </div>
+                        <p>05:22</p>
+                    </div>
+                </div>
+                <div class="xinge-column">
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new2.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">拾光的秘密</a>
+                            <p>陆虎</p>
+                        </div>
+                        <p>02:40</p>
+                    </div>
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new5.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">云上恋</a>
+                            <p>火箭少女101李子婷</p>
+                        </div>
+                        <p>04:02</p>
+                    </div>
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new8.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">one stroke</a>
+                            <p>高桥优</p>
+                        </div>
+                        <p>04:45</p>
+                    </div>
+                </div>
+                <div class="xinge-column">
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new3.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">读书郎</a>
+                            <p>连淮伟</p>
+                        </div>
+                        <p>03:28</p>
+                    </div>
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new6.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">一个人</a>
+                            <p>间弘亦</p>
+                        </div>
+                        <p>03:33</p>
+                    </div>
+                    <div class="xinge-items">
+                        <div class="img" ><a href="#"><img src="new9.jpg"></a></div>
+                        <div class="xinge-name">
+                            <a href="#">First Day</a>
+                            <p>俞宙</p>
+                        </div>
+                        <p>03:12</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+    
+    
+    
+    
+    
+</body>
+</html>
